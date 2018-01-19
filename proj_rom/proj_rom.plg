@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: proj_rom - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+一時ﾌｧｲﾙ "c:\temp\l\RSP43F.tmp" を作成し、次の内容を記録します
+[
+/nologo /MT /W3 /GX /Ot /Og /Oi /Op /Oy /Ob1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/proj_rom.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\PROJECTS\APPLICATION\proj_rom\chacha_sdk8_audio.cpp"
+]
+Creating command line "cl.exe @c:\temp\l\RSP43F.tmp" 
+一時ﾌｧｲﾙ "c:\temp\l\RSP440.tmp" を作成し、次の内容を記録します
+[
+vorbis_static.lib ogg_static.lib vorbisfile_static.lib winmm.lib dxguid.lib dxerr8.lib d3d8.lib d3dx8.lib dsound.lib dinput8.lib /nologo /stack:0xf4240,0x7a120 /subsystem:windows /incremental:no /pdb:"Release/sep_dim.pdb" /machine:I386 /out:"C:\PROJECTS\APPLICATION\proj_rom\Release\game\sep_dim.exe" 
+.\Release\chacha_sdk8_audio.obj
+.\Release\chacha_sdk8_graphic.obj
+.\Release\chacha_sdk8_Input.obj
+.\Release\File_Class.obj
+.\Release\MainFrm.obj
+.\Release\MainFrmMenu.obj
+.\Release\proj_rom.obj
+.\Release\StdAfx.obj
+.\Release\Libarc.obj
+.\Release\MMIO.OBJ
+.\Release\Uncompress.obj
+.\Release\WAVE.OBJ
+.\Release\proj_rom.res
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @c:\temp\l\RSP440.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ｺﾝﾊﾟｲﾙ中...
+chacha_sdk8_audio.cpp
+ﾘﾝｸ中...
+一時ﾌｧｲﾙ "c:\temp\l\RSP442.tmp" を作成し、次の内容を記録します
+[
+/nologo /o"Release/proj_rom.bsc" 
+.\Release\StdAfx.sbr
+.\Release\chacha_sdk8_audio.sbr
+.\Release\chacha_sdk8_graphic.sbr
+.\Release\chacha_sdk8_Input.sbr
+.\Release\File_Class.sbr
+.\Release\MainFrm.sbr
+.\Release\MainFrmMenu.sbr
+.\Release\proj_rom.sbr
+.\Release\Libarc.sbr
+.\Release\MMIO.SBR
+.\Release\Uncompress.sbr
+.\Release\WAVE.SBR]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "bscmake.exe @c:\temp\l\RSP442.tmp" の作成中
+ﾌﾞﾗｳｻﾞ ﾃﾞｰﾀﾍﾞｰｽを作成中...
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+
+
+
+<h3>結果</h3>
+sep_dim.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>
