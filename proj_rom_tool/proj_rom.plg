@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: proj_rom - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+一時ﾌｧｲﾙ "C:\temp\l\RSP500.tmp" を作成し、次の内容を記録します
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/proj_rom.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\PROJECTS\APPLICATION\proj_rom_tool\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\temp\l\RSP500.tmp" 
+一時ﾌｧｲﾙ "C:\temp\l\RSP501.tmp" を作成し、次の内容を記録します
+[
+d3d8.lib d3dx8.lib dxguid.lib dsound.lib vorbis_static.lib ogg_static.lib vorbisfile_static.lib winmm.lib vfw32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/proj_rom_tool.pdb" /machine:I386 /out:"C:\PROJECTS\APPLICATION\proj_rom\Release\game\proj_rom_tool.exe" 
+.\Release\chacha_sdk8_audio.obj
+.\Release\chacha_sdk8_graphic.obj
+.\Release\Font.obj
+.\Release\MainFrm.obj
+.\Release\MENU.obj
+.\Release\proj_rom.obj
+.\Release\proj_romDoc.obj
+.\Release\proj_romView.obj
+.\Release\StdAfx.obj
+.\Release\TekiConfig.obj
+.\Release\TekiSelect.obj
+.\Release\COMPRESS.OBJ
+.\Release\Libarc.obj
+.\Release\MMIO.OBJ
+.\Release\Uncompress.obj
+.\Release\WAVE.OBJ
+.\Release\proj_rom.res
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\temp\l\RSP501.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ｺﾝﾊﾟｲﾙ中...
+MainFrm.cpp
+ﾘﾝｸ中...
+LINK : warning LNK4089: "WINMM.dll" へのすべての参照は /OPT:REF によって廃棄されます
+一時ﾌｧｲﾙ "C:\temp\l\RSP503.tmp" を作成し、次の内容を記録します
+[
+/nologo /o"Release/proj_rom.bsc" 
+.\Release\StdAfx.sbr
+.\Release\chacha_sdk8_audio.sbr
+.\Release\chacha_sdk8_graphic.sbr
+.\Release\Font.sbr
+.\Release\MainFrm.sbr
+.\Release\MENU.sbr
+.\Release\proj_rom.sbr
+.\Release\proj_romDoc.sbr
+.\Release\proj_romView.sbr
+.\Release\TekiConfig.sbr
+.\Release\TekiSelect.sbr
+.\Release\COMPRESS.SBR
+.\Release\Libarc.sbr
+.\Release\MMIO.SBR
+.\Release\Uncompress.sbr
+.\Release\WAVE.SBR]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "bscmake.exe @C:\temp\l\RSP503.tmp" の作成中
+ﾌﾞﾗｳｻﾞ ﾃﾞｰﾀﾍﾞｰｽを作成中...
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+
+
+
+<h3>結果</h3>
+proj_rom_tool.exe - ｴﾗｰ 0、警告 1
+</pre>
+</body>
+</html>
